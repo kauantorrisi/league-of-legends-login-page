@@ -19,8 +19,9 @@
   --red: #CF3C3F;
 }
 /* tag main */
-.main {
+main {
   display: flex;
+  flex-direction: row;
 }
 /* seção login */
 .login {
@@ -199,9 +200,9 @@
   font-weight: 700;
 }
 /* img wallpaper */
-.wallpaper {
+.wallpaper{
   width: 100%;
-  background-image: url('./images/wallpaper.jpg');
+  background-image: url(images/wallpaper.jpg);
   background-size: cover;
   background-position: center;
   flex: 1;
